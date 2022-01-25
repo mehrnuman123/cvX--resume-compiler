@@ -1,0 +1,239 @@
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 1500px;
+}
+
+.whole-main {
+  background-color: rgb(56, 51, 51);
+}
+
+.textarea {
+  width: 700px;
+  height: 450px;
+  padding: 20px;
+}
+
+.main_button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 50px;
+  width: 170px;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-color: #000000;
+  display: flex;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.jumbotron--lead {
+  color: white;
+}
+.jumbotron-heading {
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+.upload-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.job-upload {
+  background-color: white;
+  width: 10px;
+}
+#myFile {
+  color:white;
+}
+.resume-upload {
+  background-color: white;
+  width: 10px;
+}
+
+.results_container {
+  display: flex;
+  justify-content: center;
+  border: rgb(0, 0, 0) 20px solid;
+  padding: 20px;
+  background-color: rgb(56, 51, 51);
+  margin-top: -25px;
+}
+
+.bars_container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px 0;
+}
+
+.bars_container span {
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #c58364;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.logo_container {
+  padding: 15px;
+}
+
+.logo_container img {
+  height: 50px;
+  filter: invert(3);
+}
+
+.job-area textarea {
+  border: 1px #ffffff solid;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 20px;
+}
+
+.resume-area textarea {
+  border: 1px #ffffff solid;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 20px;
+}
+
+.job-area {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-area {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+  border: none;
+}
+
+textarea:focus {
+  background-color: rgb(212, 201, 201);
+  border: none;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.table_highlight_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.result_table_container {
+  display: flex;
+  justify-content: center;
+  border: rgb(235, 235, 241) 20px solid;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+}
+
+.result_table_container div {
+  margin: 1px;
+}
+
+.result_table_container div .table_highlight_container {
+  display: flex;
+  justify-content: center;
+}
+
+.result_table_container .MuiTableCell-root {
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.highlight_toggle {
+  margin-top: 30px;
+  width: 900px;
+  margin-left: 40px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#myFile {
+  color: white;
+  justify-content: center;
+}
+
+.please_input {
+  background-color: black;
+  color: orange;
+  margin-top: -30px;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.job_search_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.job_search_button {
+  width: 120px;
+  margin-bottom: 50px;
+}
+
+.location_dropdown {
+  width: 150px;
+  height: 10px;
+}
+
+.actual_jobSearch_button {
+  background-color: black;
+  color: white;
+}
+
+select {
+  -webkit-appearance: menulist-button;
+  color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

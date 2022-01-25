@@ -1,0 +1,11 @@
+.match_rate_container {
+  margin: "auto";
+  width: 500px;
+  height: auto;
+}
+
+.match_rate_container h3 {
+  color: #c58364;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
