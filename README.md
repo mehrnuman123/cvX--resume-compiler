@@ -3,21 +3,6 @@
 
 Developed by : Muhammad Noman
 
-
-
-
-
-## --------------------------------------------
-
-A project built by Lighthouse Labs students.
-
-ResumeX allows users to upload job description and resume and get results whether your resume qualifies for the job! You can also get job suggestions matching your resume. It is user friendly and uses modern frameworks such as React, css, express and more!
-
-Please enjoy our application and get hired!
-
-
-
-
 ## Details about app:
 
 The app will help users in their careers by speeding up the resume and editing process. The app can be easily used and is user friendly. User can cut and paste the job description and resume in the text field, or they can upload the docx file and press submit. The submit button will give all the results in matter of seconds and will recommend the changes in resume in order to meet the job requirements. The user can also decide to look for a job using our job search option that uses api calls to hob websites and recommend jobs matching your resume automatically.
